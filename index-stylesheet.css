@@ -5,24 +5,29 @@ body{
 }
 
 
-#mheader{
+.mheader{
     background-color: #E8C3AE;
     font-family: 'PT Sans Caption', sans-serif;
     width: 100vw;
     height: 5.50vw;
     padding-top: 0.26vw;
-    text-align: center;
 }
 h1{
     font-size: 2.08vw;
     letter-spacing: 0.78vw;
     margin: auto;
     margin-top: 0.52vw;
-    margin-left: 6.77vw;
+   
 }
 h4{
     margin-top: 0vw;
     font-size: 0.83vw;
+}
+.mheader img{
+    height: 4.50vw;
+    width: 4.50vw;
+    float: left;
+    margin-left: 30px;
 }
 
 
