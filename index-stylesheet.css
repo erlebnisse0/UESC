@@ -1,4 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
 body{
-    max-width: 1440px;
-    color: #c57a18;
+    margin: 0vw;
 }
+
+
+#mheader{
+    background-color: #E8C3AE;
+    font-family: 'PT Sans Caption', sans-serif;
+    width: 100vw;
+    height: 5.50vw;
+    padding-top: 0.26vw;
+    text-align: center;
+}
+h1{
+    font-size: 2.08vw;
+    letter-spacing: 0.78vw;
+    margin: auto;
+    margin-top: 0.52vw;
+    margin-left: 6.77vw;
+}
+h4{
+    margin-top: 0vw;
+    font-size: 0.83vw;
+}
+
+
+
