@@ -46,7 +46,7 @@ h4{
     margin-right: 4vw;
 }
 body{
-    background-image: url("Images/soap1.jpg");
+    background-image: url("Images/soap1.jpg")  ;
     background-size: cover;
 }
 .search{
@@ -60,7 +60,7 @@ body{
     margin-left: 1.92vw;
     border-radius: 2vw;
     margin-right: 75vw;
-    margin-top: 25px;
+    margin-top: 1.3vw;
 
 }
 .smain input{
@@ -69,7 +69,7 @@ body{
     font-size: 0.85vw;
     width: 20vw;
     height: 1.25vw;
-    border-radius: 20px;
+    border-radius: 1.42vw;
     transition: 1s;
 }
 .smain input:active{
@@ -80,14 +80,14 @@ body{
 .blockq h3{
     text-align: center;
     display: block;   margin: auto; 
-    background-color:rgba(243, 237, 232, 0.605);
-    box-shadow: -7px 6px 0px #BF4664;
+    background-color:#f3ede89a;
+    box-shadow: -0.36vw 0.31vw 0px #BF4664;
     height: 13.55vw;    width: 28.65vw;    border-radius: 2.09vw;
     padding: 4.10vw;
     font-size: 1.30vw;
     transition: 0.4s;
     line-height: 1.80vw;
-    margin-top: 180px;
+    margin-top: 9.37vw;
 }
 .blockq :hover {
     height: 14vw;    width: 29vw;    font-size: 1.40vw; 
@@ -96,15 +96,27 @@ body{
     box-shadow: -7px 6px 0px #D8775F;
 }
 
-#fws,#srs,#tgs{
-    display: block;
-    margin: auto;
+.one-swipe img{
+    height: 11vw;
+    margin: 0px 40px;
+    border-radius: 20px;
+    border-color: #fcfcfc;
+    border-style: solid;
+    border-width: 30px 30px;
+    box-shadow: -5px 5px 0px #D8775F;
+
+}
+.one-swipe h3{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.swipe-view{
+    display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #faf4efcc;
+    height: 250px;
+    margin: 100px 0px;
 }
 
 
-#tgs{
-    height: 200px;
-    width: 200px;
-}
